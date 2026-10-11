@@ -38,3 +38,6 @@ run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+
+### 私有文档（仅本地保留，不纳入版本控制）###
+docs/
