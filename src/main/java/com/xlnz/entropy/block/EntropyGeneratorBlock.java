@@ -20,7 +20,8 @@ public class EntropyGeneratorBlock extends Block implements EntityBlock {
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
         super.setPlacedBy(level, pos, state, placer, stack);
         if (!level.isClientSide()) {
-            EntropyStorage.addWorldEntropySpeed(1.0);
+            // 服务端权威：只有服务端改数据；数据从"本存档唯一的那份"取，而非静态变量。
+            EntropyStorage.get(level.getServer()).addWorldEntropySpeed(1.0);
         }
     }
 
