@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "entropy",
+  "ingredient": {
+    "item": "entropy:entropy_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "entropy:entropy"
+  }
+}

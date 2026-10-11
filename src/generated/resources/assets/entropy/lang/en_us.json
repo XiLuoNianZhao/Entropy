@@ -1,0 +1,6 @@
+{
+  "block.entropy.entropy_block": "Entropy Cube",
+  "block.entropy.entropy_generator": "Entropy Generator",
+  "item.entropy.entropy": "Entropy",
+  "itemGroup.entropy_tab": "Entropy"
+}
